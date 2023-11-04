@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('high-school-boy-student-using-virtual-screen-hologram-typography-about-education-2A2X7EJ.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(to bottom, #ff7200, #e87714);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.icon {
+    flex: 1;
+}
+
+.logo {
+    font-size: 35px;
+    color: #ff7200;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    background-color: #ff5722;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.srch {
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    color: #ff7200;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ffb700;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.srch:focus, .btn:focus {
+    outline: none;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    color: #000;
+    padding: 20px;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    color: #ff7200;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #98908a;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: rgb(181, 163, 163);
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: #ff5722;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 65px;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(32, 33, 26)313;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 32px;
+    color: #ff7200;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.testimonial img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial blockquote {
+    font-size: 18px;
+    font-style: italic;
+    color: #783535;
+}
+
+.testimonial cite {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #ff7200;
+}
+
+.batch-info {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.batch-info img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.batch-info h1 {
+    font-size: 24px;
+    color: #ff7200;
+    margin-bottom: 20px;
+}
+
+.batch-info ul {
+    text-align: left;
+    margin: 20px 0;
+    list-style: disc;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #833434;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #ff7200;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #8a0c0c;
+    border-radius: 5px;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #ff7200;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    background: #ff7200;
+    color: #967272;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form input[type="submit"]:hover {
+    background: #ff5722;
+}
+
+.join-us {
+    width: 100%;
+    max-width: 200px;
+    background: #ff7200;
+    color: #d07171;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+}
